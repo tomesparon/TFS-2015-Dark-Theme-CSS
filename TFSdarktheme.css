@@ -1,0 +1,519 @@
+/* Hello darkness mof */
+
+/* Custom css scroll */
+::-webkit-scrollbar-button {
+    display: block;
+    height: 8px;
+    border-radius: 0px;
+    background-color: #007ACC;
+}
+::-webkit-scrollbar-button:hover {
+    background-color: #AAA;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #007ACC;
+}
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+::-webkit-scrollbar-track:hover {
+    background-color: #000000;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+/* Blue elements = 007ACC */
+ .ellipsis {
+    color: #007ACC;
+}
+.board-view {
+    background: #CCCCCC;
+}
+.hub-content {
+    background: #222222;
+    color: #CCCCCC;
+}
+.main-content {
+    background: #222222;
+    color: #CCCCCC;
+}
+.grid-gutter .grid-gutter-cell .grid-gutter-drop .grid-gutter-menu {
+    background: #222222;
+}
+.grid-gutter-row {
+    background: #222222 !important;
+}
+.blank-message {
+    background: #332233;
+    color: #CC9900;
+}
+.node-content {
+    color: #CCCCCC !important;
+}
+.pivot-filter-item a {
+    color: #CCCCCC;
+}
+.text {
+    color: #CCCCCC;
+}
+.hub-pivot-content {
+    background: #222222;
+}
+.taskboard-cell .witTitle {
+    color: #999999;
+}
+.taskboard-cell .witRemainingWork {
+    color: #CCCCCC;
+}
+.tbTile .tbTileContent {
+    background: #222222;
+    border: none;
+}
+.tbTile .tbTileContent .witTitle {
+    color: #999966;
+}
+.header-post11 #header-row {
+    background: #222222;
+}
+.header-post11 #navWrapper {
+    background-color: #222222;
+}
+.header-post11 .header-search > .search-text {
+    background-color: black;
+}
+.header-post11 .header-search {
+    background-color: black;
+}
+.sidebar-search .search-input-wrapper {
+    border: 1px solid black;
+    background-color: #222222;
+}
+.tree-view > ul.tree-children li.selected > a > div.node-content, .tree-view.focus > ul.tree-children li.selected > a > div.node-content, li.tree-drag-tile > a > div.node-content {
+    background-color: #222222;
+    border: 1px solid black;
+}
+.tree-view > ul.tree-children li.selected > a > div.node-content, .tree-view.focus > ul.tree-children li.selected > a > div.node-content, li.tree-drag-tile > a > div.node-content {
+    background-color: #222222;
+    border: 1px solid black;
+}
+.grid-gutter-row-normal {
+    border: 1px solid black;
+}
+.grid-row-current {
+    border: 1px solid black;
+}
+.splitter > .handleBar, .splitter > .handleBar-clone {
+    background-color: black;
+}
+.hub-splitter.splitter.horizontal > .leftPane {
+    border-right: 1px solid black;
+}
+.build-detail-view .header {
+    background-color: #222222;
+    border-bottom: 1px solid black;
+}
+.toolbar {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.tree-view > ul.tree-children li.focus > a > div.node-content, .tree-view > ul.tree-children li.hover > a > div.node-content, .tree-view > ul.tree-children li.context-menu-active > a > div.node-content {
+    background-color: #222222;
+    border: 1px solid black;
+}
+.hub-title {
+    color: #CCCCCC;
+}
+.hub-pivot {
+    color: #444444;
+}
+.hub-pivot {
+    background: #333333;
+}
+.hub-pivot a {
+    color: #CCCCCC;
+}
+.toolbar .menu-bar .menu-item.hover, .workitemcontrol .menu-bar .menu-item.hover {
+    background-color: #222222;
+}
+.add-panel {
+    background-color: #222222;
+    border-left-color: black;
+}
+.combo {
+    border: 1px solid black;
+    background: #222222;
+}
+.ui-dialog-buttonpane {
+    background-color: #222222;
+    border: 1px solid black;
+}
+input {
+    background: #222222;
+    color: #CCCCCC;
+}
+.ui-dialog {
+    background-color: #222222;
+}
+body {
+    color: white;
+    background-color: #222222;
+}
+.ui-tabs .ui-tabs-nav {
+    background-color: #222222;
+}
+.ui-widget-content {
+    border: 1px solid black;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    background-color: #666666;
+}
+.grid-row {
+    color: #CCCCCC;
+}
+.grid-row:hover {
+    background: #442233;
+}
+.grid-row-current {
+    background: #333333;
+}
+.grid-row-selected {
+    background: #332233 !important;
+}
+.grid-row-selected-blur {
+    background: #332233 !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+    background-color: #333333;
+    border-bottom: 1px solid black;
+}
+.ui-dialog .ui-dialog-title {
+    color: white;
+}
+.splitter > .handleBar.hover {
+    background-color: #444444;
+}
+.splitter > .handleBar, .splitter > .handleBar-clone {
+    background-color: black;
+}
+body {
+    color: white;
+}
+.content-section {
+    background-color: #222222;
+}
+.group-info-input {
+    color: white;
+}
+.versioncontrol-explorer-view .source-path {
+    border: 1px solid black;
+    background-color: #222222;
+}
+.visual-progress-total-unallocated {
+    background-color: #444444;
+}
+.ui-widget-overlay {
+    background: #332233;
+}
+.splitter.toggle-button-enabled.collapsed > .handleBar {
+    background-color: black;
+}
+.queue-build select {
+    border: 1px solid black;
+}
+/* input boxes 282C34*/
+ input, textarea, select {
+    background-color: #222222;
+    color:#aaa;
+}
+.queue-build input[type='text'] {
+    border: 1px solid black;
+}
+.workitem-info-bar {
+    color: white;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+    color: white;
+}
+.ui-tabs .ui-tabs-nav li a {
+    color: white;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: #007ACC;
+}
+input, button, select {
+    color: #aaa;
+}
+.modal-dialog label {
+    color: #cccccc;
+}
+td.taskboard-cell.ui-droppable {
+    background-color: #282C34;
+    border-style: solid;
+    border-color: #282C34;
+    border-left-color: #007ACC;
+    border-width: thin;
+}
+td.taskboard-cell.taskboard-parent.highlight-on-row-change {
+    background-color: #282C34;
+    border-style: solid;
+    border-color: #282C34;
+}
+span.clickable-title {
+    color: #ffffff;
+}
+.taskboard-expander {
+    background-color:#282C34;
+    border-bottom-color:#282C34;
+}
+td.taskboard-expander.highlight-on-row-change {
+    background-color: #282C34;
+    color: #282C34;
+}
+td.taskboard-cell.taskboard-parent.taskboard-parent-width {
+    color: #dedede;
+    background-color: #282C34;
+}
+th.taskboard-cell {
+    border-color: #282C34;
+}
+span.witState {
+    color: #007ACC;
+}
+td.taskboard-cell.taskboard-parent.taskboard-parent-width {
+    border-color: #222222;
+}
+div.work-item-view {
+    background-color: #282C34;
+}
+.work-item-view legend {
+    color: #007ACC;
+}
+div.workitem-info-bar {
+    background-color: #1a191a;
+}
+ul.menu-bar {
+    background-color: #1f1e1f;
+}
+div.work-item-form.no-headertoolbar {
+    background-color: #242424;
+}
+div.cell.member-content.member.content.inprogress.ui-droppable {
+    background-color: #282C34;
+    border-color: #292929;
+}
+div.cell.member-content.member.content.inprogress.split.horizontal {
+    background-color: #282C34;
+    border-color: #4d4d4d;
+}
+.cell.member-content.member.content.swimlanes {
+    background-color: #282C34;
+}
+div.cell.member-content.member.content.proposed.ui-droppable {
+    background-color: #282C34;
+    border-color: #282C34;
+}
+.agile-board .horizontal .horizontal-table>.row>.cell {
+    display: table-cell;
+    border-right: 4px solid #222222;
+}
+.agile-board .board-tile .board-tile-content-container .board-tile-content-bottom-border {
+    background-color: #222222 !important;
+    border-color: #0669a7;
+    border-style: outset;
+    border-top-style: inset;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-left-width: 3px;
+    border-width: 3px;
+}
+.agile-board .board-tile .board-tile-content-container .board-tile-content .board-tile.ui-draggable-dragging .board-tile-content-container .board-tile-content {
+    background-color: #222222 !important;
+    border-color: #0669a7;
+    border-style: outset;
+    border-top-style: inset;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-left-width: 3px;
+    border-width: 3px;
+}
+div.member-header.default.ui-droppable {
+    background-color: #282C34;
+    border-color: #282C34;
+}
+div.member-border-line {
+    background-color: #282C34;
+}
+div.member-header-content.member.header {
+    color: #ffffff;
+}
+div.cell.member-content.member.content.complete.ui-droppable {
+    background-color: #282C34;
+    border-color: #000000;
+}
+div.member-header.swimlane-collapsed.ui-droppable {
+    color: #007ACC;
+    background-color: #222222;
+    border-color: #f211f2;
+    border-style: none;
+}
+.agile-board .swimlanes>.member-vertical {
+    border-bottom: 3px solid #222222;
+}
+.agile-board .cell .member-border-line {
+    background: #282C34;
+}
+div.hub-pivot {
+    background-color: #222222;
+}
+div.member-header.ui-droppable {
+    background-color: #282C34;
+    color: #ffffff;
+}
+/* arrow button  blue*/
+ .ui-widget-content {
+    border: 1px solid #aaa;
+    color: #007ACC;
+}
+/*buttonss*/
+ .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+    color: #ababab;
+    background-color: #222;
+}
+button, button.ui-state-default, button.ui-button {
+    border: 1px solid #007acc;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+/*Hovers */
+ .grid-header-column:hover {
+    background-color: #007acc;
+}
+.small-chart-group-container:hover .small-chart-container {
+    display: block;
+}
+/* NEW CLEAN STUFF from freestyler and hover in bars */
+ a {
+    -webkit-user-drag: none;
+}
+legend, label {
+    user-select: none;
+    cursor: default;
+}
+:focus {
+    outline: none;
+}
+body, input, button, textarea, select, .header-post11 .hub-groups-section, .ui-tabs .ui-tabs-nav {
+    text-transform: none;
+}
+.main {
+    background: #000;
+}
+.content-section, .hub-pivot, .hub-pivot-content {
+    background: none;
+}
+.work-item-list, .work-item-form {
+    background: #000;
+}
+.hub-title {
+    display: none;
+}
+#navWrapper {
+    height: 30px !important;
+}
+.header-post11 + .content-section {
+    top: 61px;
+}
+.hub-nav-structure {
+    display: flex;
+}
+.hubs-section-nav {
+    position: relative !important;
+    top: 4px !important;
+    left: 0 !important;
+}
+.left-hub-content, .right-hub-content {
+    top: 0 !important;
+}
+.menu-item[title="Save all queries"], .node-context-menu {
+    display: none;
+}
+.query-folder-explorer .toolbar {
+    margin-left: 5px;
+}
+.hub-splitter > .leftPane {
+    top: 32px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.75);
+    width: 200px !important;
+    background: #000;
+    border-top: 1px solid #000;
+    border-top-right-radius: 4px;
+    transform: translateX(-190px);
+    transition: 0.1s 0s cubic-bezier(0.4, 0, 0, 1);
+    transition-property: transform, box-shadow;
+    z-index: 10;
+}
+.hub-splitter > .leftPane:hover {
+    transform: translateX(0);
+    box-shadow: 4px 2px 0 0 rgba(0, 0, 0, 0.1);
+}
+.hub-splitter > .rightPane {
+    left: 10px !important;
+}
+.hub-splitter > .handleBar, .hub-splitter > .toggle-button {
+    display: none;
+}
+.handleBar {
+    z-index: 100;
+    overflow: visible !important;
+}
+.handleBar:hover {
+    background: #000 !important;
+}
+.handleBar:after {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    right: -5px;
+    bottom: 0;
+    background: rgba(255, 0, 0, 0.01);
+    opacity: 0.5;
+}
+.handleBar:hover:after {
+    opacity: 1;
+}
+.hub-progress {
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    background-image: linear-gradient(45deg, #000000 25%, #000 25%, #00f 50%, #000 50%, #000 75%, #00f 75%);
+    background-size: 12px 12px;
+    animation: progress-slide-to-left 0.15s linear infinite;
+}
+@keyframes progress-slide-to-left {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: -12px;
+    }
+}
+/* NEW CLEAN STUFF from freestyler and hover in bars END*/
+
+/*  Label changer
+.tag-box  {
+     background-color: black;
+}
+.grid-row *[title=Closed] {
+    text-decoration: line-through;
+}
+ */
